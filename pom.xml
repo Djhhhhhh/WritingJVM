@@ -11,6 +11,7 @@
     <modules>
         <module>JVMdemo-1</module>
         <module>JVMdemo-2</module>
+        <module>JVMdemo-3</module>
     </modules>
 
     <dependencies>
