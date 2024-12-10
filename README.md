@@ -132,3 +132,28 @@
 ​	配置信息：-Xjre "C:\Users\ASUS\.jdks\corretto-1.8.0_422\jre" java.lang.String
 
 ![image-20241208230210570](https://raw.githubusercontent.com/Djhhhhhh/MyPic/master/image-20241208230210570.png)
+
+## 第四章 运行时数据区
+
+### 1. 目的
+
+​	Java虚拟机需要使用内存来存放各种数据。Java虚拟机规范将内存区域叫做运行时数据区。
+
+​	运行时数据区分为两种：
+
+-   多线程共享：在Java虚拟机启动时创建，在Java虚拟机退出时销毁。
+-   线程私有：创建线程时创建，线程退出时销毁。
+
+### 2. 局部变量表和操作数栈实例分析流程图
+
+![image-20241210144713645](https://raw.githubusercontent.com/Djhhhhhh/MyPic/master/image-20241210144713645.png)
+
+### 3. 最终效果
+
+​	本章只做局部变量表和操作栈数的用法测试，在下章会排上用场。
+
+​	配置信息：
+
+​	-Xjre "C:\Users\ASUS\.jdks\corretto-1.8.0_422\jre" "D:\Demo\WritingJVM\JVMdemo-4\src\test\java"
+
+![image-20241210145815683](https://raw.githubusercontent.com/Djhhhhhh/MyPic/master/image-20241210145815683.png)
