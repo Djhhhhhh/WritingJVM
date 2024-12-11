@@ -157,3 +157,33 @@
 ​	-Xjre "C:\Users\ASUS\.jdks\corretto-1.8.0_422\jre" "D:\Demo\WritingJVM\JVMdemo-4\src\test\java"
 
 ![image-20241210145815683](https://raw.githubusercontent.com/Djhhhhhh/MyPic/master/image-20241210145815683.png)
+
+## 第五章 指令集和解释器
+
+### 1. 目的
+
+​	实现简单解释器，实现基础指令。
+
+### 2.前置知识
+
+​	字节码文件中存放编码后的Java虚拟机指令，每条指令都以一个单字节的操作码开头。
+
+​	javaa虚拟机解释器的大致逻辑为：
+
+-   计算PC
+-   指令解码
+-   指令执行
+
+​	然后重复上述操作。
+
+### 3. 指令集
+
+​	（由于数目过多，看代码吧，此处略）
+
+​	最后通过简单工厂模式，当传入参数不同时，使用不同指令。
+
+### 4. 最终效果
+
+​	配置信息：-Xjre "C:\Users\ASUS\.jdks\corretto-1.8.0_422\jre" D:\Demo\WritingJVM\JVMdemo-5\target\test-classes\HelloWorld
+
+![image-20241211164511897](https://raw.githubusercontent.com/Djhhhhhh/MyPic/master/image-20241211164511897.png)
