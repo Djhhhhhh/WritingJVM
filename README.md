@@ -187,3 +187,13 @@
 ​	配置信息：-Xjre "C:\Users\ASUS\.jdks\corretto-1.8.0_422\jre" D:\Demo\WritingJVM\JVMdemo-5\target\test-classes\HelloWorld
 
 ![image-20241211164511897](https://raw.githubusercontent.com/Djhhhhhh/MyPic/master/image-20241211164511897.png)
+
+## 第六章 类和对象
+
+
+
+### 最终效果
+
+​	配置信息：-Xjre "C:\Users\ASUS\.jdks\corretto-1.8.0_422\jre" D:\Demo\WritingJVM\JVMdemo-6\target\test-classes\HelloWorld
+
+![image-20241212214818133](https://raw.githubusercontent.com/Djhhhhhh/MyPic/master/image-20241212214818133.png)
